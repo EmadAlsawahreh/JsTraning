@@ -1,0 +1,45 @@
+main.main-div {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.content-container
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.data-form, .search-form, .update-form {
+    padding: 50px;
+    border: 1px solid #0d6efd38;
+    text-align: center;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.update-form input, 
+.data-form input, 
+.search-form input 
+{
+    border: 1px solid #0d6efd38;
+    text-align: center;    
+    color: #0d6efd;
+}
+table#contactsData {
+    width: 100%;
+    text-align: center;
+}
+.form-area {
+    height: 100%;
+}
+form.search-form {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
